@@ -1,1 +1,1 @@
-Ovo je test SSH autentifikacije
+This is an SSH authentication test.
