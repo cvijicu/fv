@@ -10,7 +10,7 @@ endclocking
 
 assert property (
 
-	rst |=> (!tx && !rx)[*3]
+	$fell(rst) |-> (!tx && !rx)[*3]
 
 );
 
